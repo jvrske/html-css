@@ -1,0 +1,30 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    width: 600px;
+    box-shadow: 5px 5px 15px #261a0b70;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    font: italic bold 2em arial, helvetica, sans-seriff;
+    text-align: center;
+    color: #8C7C68;
+    text-shadow: 1px 1px 2px black;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    color: #A69580;
+}
+
+body {
+    background-image: linear-gradient(to right, #A69580, #D9CBBA);
+}

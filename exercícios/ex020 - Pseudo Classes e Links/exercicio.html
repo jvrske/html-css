@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercitando</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div#d1, div#d2, div#d3 {
+            background-color: lightgrey;
+            display: inline-block;
+            height: 200px;
+            width: 200px;
+            text-align: center;
+            border: 1px solid black;
+        }
+
+        div#d1:hover {
+            background-color: yellow;
+        }
+        div#d2:hover {
+            background-color: green;
+        }
+        div#d3:hover {
+            background-color: red;
+        }
+
+        div#d4 {
+            width: 147px;
+        }
+
+        div#d4 > p {
+            display: none;
+        }
+
+        div#d4:hover {
+            color: red;
+        }
+
+        div#d4:hover > p {
+            display: block;
+            color: red;
+            background-color: aqua;
+            width: 123px;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div id="d4">
+        Passe o mouse aqui
+        <p>Texto escondido!</p>
+    </div>
+    <p>Fim do exemplo!</p>
+</body>
+</html>
